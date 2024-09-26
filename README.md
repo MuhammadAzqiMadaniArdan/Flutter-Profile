@@ -1,8 +1,10 @@
 # profil_diri
 
 A new Flutter project.
-
+<div style="flex">
 <img src="https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7" data-canonical-src="https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7" data-canonical-src="https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7" width="200" height="400"/>
+</div>
 
 ## Getting Started
 
