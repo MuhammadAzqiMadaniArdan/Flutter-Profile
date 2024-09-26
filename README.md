@@ -2,7 +2,8 @@
 
 A new Flutter project.
 
-![profile-awal](https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7 =250x250)
+<img src="https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7" data-canonical-src="https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7"/>
+![profile-awal](https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7 )
 
 ## Getting Started
 
