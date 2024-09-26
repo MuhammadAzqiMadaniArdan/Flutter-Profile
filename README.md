@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-![profile-awal](https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7 | width=100)
+![profile-awal](https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7 width=100)
 
 ## Getting Started
 
