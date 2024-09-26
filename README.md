@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+![profile-awal](https://github.com/user-attachments/assets/4ddd9edf-d1c2-4e52-bf26-ae1f944663d7)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
