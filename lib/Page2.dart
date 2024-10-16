@@ -49,7 +49,7 @@ class Page2 extends StatelessWidget {
                 Padding(padding: EdgeInsets.all(15.0)),
                 CircleAvatar(
                   radius: 100.0,
-                  backgroundImage: AssetImage('assets/images/mee.jpg'),
+                  backgroundImage: AssetImage('assets/images/profile.jpg'),
                 ),
                 SizedBox(height: 20),
                 Row(
