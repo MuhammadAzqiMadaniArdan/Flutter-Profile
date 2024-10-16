@@ -1,17 +1,19 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/container.dart';
+import 'package:flutter/src/widgets/framework.dart';
+
 import 'Page2.dart';
 
-void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: home(),
-  ));
-}
-
 class home extends StatelessWidget {
-  const home({Key? key}) : super(key: key);
+  const home({super.key, required this.username,required this.role,required this.school,required this.description });
+  final String username;
+  final String role;
+  final String school;
+  final String description;
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,7 +60,7 @@ class home extends StatelessWidget {
                 Padding(padding: EdgeInsets.all(15.0)),
                 CircleAvatar(
                   radius: 100.0,
-                  backgroundImage: AssetImage('assets/images/mee.jpg'),
+                  backgroundImage: AssetImage('assets/images/profile.jpg'),
                 ),
                 SizedBox(height: 20),
                 Row(
@@ -86,7 +88,7 @@ class home extends StatelessWidget {
                 SizedBox(height: 8.0),
                 Padding(padding: EdgeInsets.all(10.0)),
                 Text(
-                  "Muhammad Azqi Madani Ardan",
+                  "$username",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 25,
@@ -96,7 +98,7 @@ class home extends StatelessWidget {
                 ),
                 SizedBox(height: 8.0),
                 Text(
-                  "- Web Developer -",
+                  "- $role -",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15,
@@ -125,7 +127,6 @@ class home extends StatelessWidget {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-
                           SizedBox(
                             height: 8.0,
                           ),
@@ -136,7 +137,18 @@ class home extends StatelessWidget {
                             height: 8.0,
                           ),
                           Text(
-                            "🔍 Saya adalah seorang siswa di SMK Wikrama Bogor Saya fokus dalam bidang pengembangan perangkat lunak dan game",
+                            "Sekolah :  $school ",
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 8.0,
+                          ),
+                          Text(
+                            "🔍 $description ",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.black,
